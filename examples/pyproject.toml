@@ -1,0 +1,20 @@
+[project]
+name = "examples"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "zelda",email = "josefgasewicz@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bobtail-admin @ file:///Users/joegasewicz/PycharmProjects/bobtail-admin"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+bobtail-admin = {develop = true}

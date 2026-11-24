@@ -1,0 +1,27 @@
+{
+  "name": "bobtail-admin",
+  "version": "1.0.0",
+  "description": "Admin for the bobtail web framework.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joegasewicz/bobtail-admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joegasewicz/bobtail-admin/issues"
+  },
+  "homepage": "https://github.com/joegasewicz/bobtail-admin#readme",
+  "devDependencies": {
+    "sass-embedded": "^1.108.2",
+    "vite": "^8.3.8"
+  }
+}
